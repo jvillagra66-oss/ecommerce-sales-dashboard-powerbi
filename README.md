@@ -1,34 +1,80 @@
-# 📦 Dashboard de Distribución Nacional - Argentina
+# 🛒 Ecommerce Sales Dashboard - Argentina 2023
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-blue)
 ![Power Query](https://img.shields.io/badge/Power%20Query-M%20Language-informational)
-![SAP](https://img.shields.io/badge/ERP-SAP%20TM-blue)
-![Status](https://img.shields.io/badge/Status-Producción-brightgreen)
+![Status](https://img.shields.io/badge/Status-Completado-brightgreen)
 
 ---
 
 ## 🎯 Problema de Negocio
 
-En Argentina, las empresas de distribución logística enfrentan 
-**altos índices de incumplimiento de SLA** y demoras operativas 
-que impactan directamente en:
+Los ecommerce argentinos necesitan monitorear en tiempo real 
+su performance comercial para tomar decisiones estratégicas sobre:
 
-- 📦 Costos de reenvío y gestión de devoluciones
-- 😟 Satisfacción del cliente final
-- 📉 Margen operativo del transportista
-- 🏭 Sobrecarga en centros de distribución
-
-Este dashboard permite identificar **dónde, cuándo y por qué 
-fallan las entregas** para tomar decisiones basadas en datos.
+- 💰 Rentabilidad por provincia y canal de venta
+- 🛍️ Comportamiento de compra por método de pago
+- 📦 Volumen de tickets por segmento
+- 🔄 Performance Ecommerce vs canal Terceros
 
 ---
 
 ## 📊 Descripción
 
-Dashboard ejecutivo de análisis logístico desarrollado en 
-**Power BI** sobre un dataset de **500K registros** de 
-distribución nacional Argentina 2022-2024.
+Dashboard ejecutivo de análisis de ventas desarrollado en 
+**Power BI** para un ecommerce argentino 2023. Permite monitorear 
+performance comercial por provincia, canal de venta y método de pago.
+
+---
+
+## 💡 KPIs principales
+
+| Métrica | Valor |
+|---|---|
+| 💰 Ventas totales | $84,05 millones |
+| 📦 Venta sin IVA | $69,47 millones |
+| 🎫 Suma de tickets | 57 mil |
+
+---
+
+## 📈 Contenido del Dashboard
+
+### Página 1 — Performance General
+- KPIs ejecutivos de ventas totales
+- Ventas por provincia de envío
+- Análisis por método de pago (Crédito, Débito, Efectivo)
+- Segmentador por canal: Ecommerce vs Terceros
+- Filtro temporal por fecha
+
+### Página 2 — Análisis por Producto
+- Detalle de ventas por producto
+- Distribución por cantidad vendida
+- Tablas de rentabilidad por SKU
+- Análisis de Coca-Cola 1.5lt como producto destacado
+
+---
+
+## 🧠 Modelado de datos
+
+- Modelo relacional con tabla de hechos de ventas
+- Medidas DAX: Ventas, Venta sin IVA, Suma de Ticket
+- Segmentadores dinámicos por canal y fecha
+
+---
+
+## 💡 Insights principales
+
+- 📍 Mendoza, CABA y Córdoba concentran el mayor volumen de ventas
+- 💳 Crédito, débito y efectivo representan partes iguales del total
+- 🛒 Canal Ecommerce con análisis separado por segmento
+- 📦 Producto estrella: Coca-Cola 1.5lt con $6,97 mill. en ventas
+
+---
+
+## 📸 Vista del Dashboard
+**[Ver Dashboard completo en PDF](ecommerce_sales_dashboard.pdf)**
+
+
 
 ---
 
@@ -37,65 +83,17 @@ distribución nacional Argentina 2022-2024.
 - Power BI Desktop
 - DAX (Data Analysis Expressions)
 - Power Query (M Language)
-- Modelado estrella (Star Schema)
+- Modelado de datos relacional
 
 ---
 
-## 📈 Contenido del Dashboard
+## 🔗 Proyectos relacionados
 
-### Página 1 — Dashboard Principal
-- KPIs ejecutivos: Total Entregas, % Entregas Exitosas, Costo Total
-- Evolución temporal de entregas 2022-2024
-- Análisis por transportista (OCA, Andreani, Correo Argentino, DHL, FedEx)
-- Distribución por zona y motivo de fallo
-- Segmentador interactivo por provincia
+📦 **[Dashboard Distribución Nacional Argentina](https://github.com/jvillagra66-oss/dashboard-distribucion-nacional)**
+Sistema de análisis logístico con mapa interactivo y KPIs de SLA
 
-### Página 2 — Análisis Geográfico
-- Mapa interactivo de Argentina por provincia
-- KPI Demora Promedio
-- KPI SLA Cumplido %
-- Filtro geográfico por provincia
-
----
-
-## 🧠 Modelado de datos
-
-- Esquema estrella con tabla de hechos central
-- Tabla Calendario DAX con CALENDARAUTO()
-- Tabla de provincias con coordenadas geográficas
-- Medidas DAX: Total Entregas, % Exitosas, SLA Cumplido
-
----
-
-## 💡 Insights principales
-
-- **76.78%** de entregas exitosas
-- Solo **10.94%** cumple el SLA establecido
-- Diciembre concentra los picos máximos de entregas
-- OCA lidera en volumen de zona por transportista
-
----
-
-## 📸 Vista del Dashboard
-📄 
-
----
-
-## 📁 Estructura del repositorio
-```
-ecommerce-sales-dashboard-powerbi/
-├── README.md
-├── ecommerce_sales_dashboard.pbix
-├── ecommerce_sales_dashboard.pdf
-└── images/
-    ├── pagina1.png
-    └── pagina2.png
-```
-## 🔗 Proyecto relacionado
-
-🤖 **[Sistema ML de Predicción de Fallos — Última Milla](https://github.com/jvillagra66-oss/sistema-prediccion-fallos-ultima-milla)**  
-Sistema de Machine Learning que predice fallos logísticos 
-usando los mismos datos de distribución nacional.
+🤖 **[Sistema ML Predicción de Fallos — Última Milla](https://github.com/jvillagra66-oss/sistema-prediccion-fallos-ultima-milla)**
+Machine Learning aplicado a predicción de fallos logísticos
 
 ---
 
@@ -104,4 +102,4 @@ usando los mismos datos de distribución nacional.
 **Jorge Matias**  
 Supply Chain Data Analyst | Power BI | Python & ML | SAP | GIS  
 🇦🇷 Argentina | Open to remote opportunities  
-[LinkedIn](#) | [GitHub](https://github.com/jvillagra66-oss)
+[GitHub](https://github.com/jvillagra66-oss)
