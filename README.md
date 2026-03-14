@@ -72,7 +72,7 @@ performance comercial por provincia, canal de venta y método de pago.
 ---
 
 ## 📸 Vista del Dashboard
-
+https://github.com/jvillagra66-oss/ecommerce-sales-dashboard-powerbi/issues/1#issue-4076768481
 
 ---
 
