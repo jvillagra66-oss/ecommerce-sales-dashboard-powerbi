@@ -72,7 +72,7 @@ performance comercial por provincia, canal de venta y método de pago.
 ---
 
 ## 📸 Vista del Dashboard
-**[Ver Dashboard completo en PDF](dashboard%20commerce%20sales.pdf)**
+
 
 ---
 
@@ -101,3 +101,4 @@ Machine Learning aplicado a predicción de fallos logísticos
 Supply Chain Data Analyst | Power BI | Python & ML | SAP | GIS  
 🇦🇷 Argentina | Open to remote opportunities  
 [GitHub](https://github.com/jvillagra66-oss)
+
