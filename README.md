@@ -72,9 +72,7 @@ performance comercial por provincia, canal de venta y método de pago.
 ---
 
 ## 📸 Vista del Dashboard
-**[Ver Dashboard completo en PDF](ecommerce_sales_dashboard.pdf)**
-
-
+**[Ver Dashboard completo en PDF](dashboard%20commerce%20sales.pdf)**
 
 ---
 
